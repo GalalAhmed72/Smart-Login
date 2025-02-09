@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="mainHome text-center m-auto text-white p-5 mt-5">
+      <h1 class="text-info">Smart Login System</h1>
+      <div class="">
+        <input
+          class="form-control"
+          id="emailHome"
+          type="email"
+          placeholder="Enter your email"
+        />
+      </div>
+      <div class="mt-3">
+        <input
+          class="form-control"
+          id="passwordHome"
+          type="password"
+          placeholder="Enter your password"
+        />
+      </div>
+      <div class="mt-3 item">
+        <p class="text-danger d-none" id="alertRequiredHome">invalid data</p>
+        <a id="ancorHome"class="w-100 text-info form-control"> Login</a>
+      </div>
+      <p class="mt-3">
+        Don’t have an account? <a href="./signUp.html"> Sign Up</a>
+      </p>
+    </div>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/home.js"></script>
+  </body>
+</html>

@@ -1,0 +1,68 @@
+body{
+    background-color: #24353F;
+}
+.mainHome{
+    width: 65%;
+    border-radius: 5px;
+    box-shadow: 0 0  25px black;
+}
+.mainHome input ,.mainHome button , .mainHome .item a{
+    background-color: #24353F;
+    color: white;
+    transition: all 1s;
+}
+.mainHome a{
+    text-decoration: none;
+    color: white;
+}
+.mainHome a:hover{
+    text-decoration: underline;
+    
+    
+}
+input::placeholder{
+    color: white !important;
+}
+/* sign up */
+.mainSign{
+    width: 65%;
+    border-radius: 5px;
+    box-shadow: 0 0  25px black;
+}
+.mainSign input ,.mainSign button{
+    background-color: #24353F;
+    color: white;
+    transition: all 1s;
+}
+.mainSign a{
+    text-decoration: none;
+    color: white;
+}
+.mainSign a:hover{
+    text-decoration: underline;
+    
+    
+}
+
+/* welcome */
+.mainWeclome{
+    
+    height: 91vh;
+    box-sizing: border-box;
+}
+
+.mainWeclome p{
+    font-size: 2.5rem;
+    color: #17a2b8;
+}
+.itemWeclome{
+    
+    width: 75%;
+    border-radius: 5px;
+    box-shadow: 0 0  25px black;
+    position: absolute;
+    top: 35%;
+    left: 12.5%;
+    padding: 40px 0;
+    /* transform: translate(-50%,-50%); */
+}

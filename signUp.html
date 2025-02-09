@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="mainSign text-center m-auto text-white p-5 mt-5">
+      <h1 class="text-info">Smart Login System</h1>
+      <div class="">
+        <input
+          id="nameSign"
+          class="form-control"
+          type="text"
+          placeholder="Enter your name"
+        />
+        <p id="capitalSign" class="alert alert-warning d-none">
+          you shoud start with capital leter
+        </p>
+        <p id="smallSign" class="alert alert-warning d-none">
+          you shoud write 3-9 small leter
+        </p>
+      </div>
+      <div class="mt-3">
+        <input
+          id="emailSign"
+          class="form-control"
+          type="email"
+          placeholder="Enter your email"
+        />
+        <p id="exiteSign" class="alert alert-warning d-none">email is exite</p>
+      </div>
+      <div class="mt-3">
+        <input
+          id="passwordSign"
+          class="form-control"
+          type="password"
+          placeholder="Enter your password"
+        />
+        <!-- <p class="alert alert-warning">you shoud start with capital leter</p> -->
+      </div>
+      <div class="mt-3">
+        <p class="text-danger d-none" id="alertRequiredSign">
+          All inputs is required
+        </p>
+        <p class="text-success d-none" id="SuccessSign">Success</p>
+        <button
+          id="login-btnSign"
+          class="w-100 text-info form-control"
+          type="submit"
+        >
+          SignUp
+        </button>
+      </div>
+      <p class="mt-3">
+        You have an account? <a href="./index.html"> Signin</a>
+      </p>
+    </div>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/signUp.js"></script>
+  </body>
+</html>
